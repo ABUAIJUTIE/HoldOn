@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010F89261FE2752E006C95F9 /* TestCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F89251FE2752E006C95F9 /* TestCVCell.swift */; };
+		010F89281FE285BC006C95F9 /* EventMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F89271FE285BC006C95F9 /* EventMainVC.swift */; };
+		010F892A1FE28F79006C95F9 /* TestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F89291FE28F79006C95F9 /* TestHeader.swift */; };
+		010F892C1FE2A4CF006C95F9 /* MeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F892B1FE2A4CF006C95F9 /* MeMainVC.swift */; };
+		01520D9A1FE0DAC4005E1834 /* HOBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01520D991FE0DAC4005E1834 /* HOBaseView.swift */; };
+		01520D9C1FE0DE02005E1834 /* HOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01520D9B1FE0DE02005E1834 /* HOColor.swift */; };
+		017B61AF1FE1319E004E13AA /* HOFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61AE1FE1319E004E13AA /* HOFont.swift */; };
+		017B61B11FE132CE004E13AA /* Fette-Engschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 017B61B01FE132CE004E13AA /* Fette-Engschrift.ttf */; };
+		017B61B31FE15992004E13AA /* RidingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61B21FE15992004E13AA /* RidingPageVC.swift */; };
+		017B61B51FE15A49004E13AA /* WalkingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61B41FE15A49004E13AA /* WalkingPageVC.swift */; };
+		017B61B71FE16001004E13AA /* WeatherPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61B61FE16001004E13AA /* WeatherPageVC.swift */; };
+		017B61BD1FE1752D004E13AA /* HOShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61BC1FE1752D004E13AA /* HOShadow.swift */; };
+		017B61BF1FE20859004E13AA /* HOUIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61BE1FE20859004E13AA /* HOUIUtils.swift */; };
+		017B61C11FE20B7D004E13AA /* HOLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B61C01FE20B7D004E13AA /* HOLayer.swift */; };
+		019C96851FE0F8470097EA9C /* RuningPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019C96841FE0F8470097EA9C /* RuningPageVC.swift */; };
+		019C96871FE101450097EA9C /* FitPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019C96861FE101450097EA9C /* FitPageVC.swift */; };
+		01BF205F1FE0CB7E005BC77D /* FitnessMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF205E1FE0CB7E005BC77D /* FitnessMainVC.swift */; };
+		01BF20611FE0D669005BC77D /* ChallengeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF20601FE0D669005BC77D /* ChallengeMainVC.swift */; };
 		01F5BA8D1FE0C18900F1EF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */; };
 		01F5BA8F1FE0C18900F1EF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */; };
 		01F5BA921FE0C18900F1EF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F5BA901FE0C18900F1EF22 /* Main.storyboard */; };
@@ -15,6 +33,8 @@
 		01F5BA9A1FE0C18900F1EF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F5BA981FE0C18900F1EF22 /* LaunchScreen.storyboard */; };
 		01F5BAA51FE0C18900F1EF22 /* HoldOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BAA41FE0C18900F1EF22 /* HoldOnTests.swift */; };
 		01F5BAB01FE0C18900F1EF22 /* HoldOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BAAF1FE0C18900F1EF22 /* HoldOnUITests.swift */; };
+		01F5BABE1FE0C66A00F1EF22 /* HoldOn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F5BABD1FE0C66A00F1EF22 /* HoldOn.storyboard */; };
+		17C776D54E7ED20075350B4C /* Pods_HoldOn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295D8EB25F92CC5F74645209 /* Pods_HoldOn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010F89251FE2752E006C95F9 /* TestCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCVCell.swift; sourceTree = "<group>"; };
+		010F89271FE285BC006C95F9 /* EventMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMainVC.swift; sourceTree = "<group>"; };
+		010F89291FE28F79006C95F9 /* TestHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHeader.swift; sourceTree = "<group>"; };
+		010F892B1FE2A4CF006C95F9 /* MeMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMainVC.swift; sourceTree = "<group>"; };
+		01520D991FE0DAC4005E1834 /* HOBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOBaseView.swift; sourceTree = "<group>"; };
+		01520D9B1FE0DE02005E1834 /* HOColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOColor.swift; sourceTree = "<group>"; };
+		017B61AE1FE1319E004E13AA /* HOFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOFont.swift; sourceTree = "<group>"; };
+		017B61B01FE132CE004E13AA /* Fette-Engschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fette-Engschrift.ttf"; sourceTree = "<group>"; };
+		017B61B21FE15992004E13AA /* RidingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidingPageVC.swift; sourceTree = "<group>"; };
+		017B61B41FE15A49004E13AA /* WalkingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingPageVC.swift; sourceTree = "<group>"; };
+		017B61B61FE16001004E13AA /* WeatherPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPageVC.swift; sourceTree = "<group>"; };
+		017B61BC1FE1752D004E13AA /* HOShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOShadow.swift; sourceTree = "<group>"; };
+		017B61BE1FE20859004E13AA /* HOUIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOUIUtils.swift; sourceTree = "<group>"; };
+		017B61C01FE20B7D004E13AA /* HOLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOLayer.swift; sourceTree = "<group>"; };
+		019C96841FE0F8470097EA9C /* RuningPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuningPageVC.swift; sourceTree = "<group>"; };
+		019C96861FE101450097EA9C /* FitPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPageVC.swift; sourceTree = "<group>"; };
+		01BF205E1FE0CB7E005BC77D /* FitnessMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMainVC.swift; sourceTree = "<group>"; };
+		01BF20601FE0D669005BC77D /* ChallengeMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMainVC.swift; sourceTree = "<group>"; };
 		01F5BA891FE0C18900F1EF22 /* HoldOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +87,10 @@
 		01F5BAAB1FE0C18900F1EF22 /* HoldOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F5BAAF1FE0C18900F1EF22 /* HoldOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldOnUITests.swift; sourceTree = "<group>"; };
 		01F5BAB11FE0C18900F1EF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F5BABD1FE0C66A00F1EF22 /* HoldOn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HoldOn.storyboard; sourceTree = "<group>"; };
+		1181778382D434E56152445E /* Pods-HoldOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoldOn.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoldOn/Pods-HoldOn.release.xcconfig"; sourceTree = "<group>"; };
+		295D8EB25F92CC5F74645209 /* Pods_HoldOn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoldOn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11C5942BDA24F66EB0A2BE0 /* Pods-HoldOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoldOn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoldOn/Pods-HoldOn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C776D54E7ED20075350B4C /* Pods_HoldOn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +119,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01520D961FE0DA51005E1834 /* HOUI */ = {
+			isa = PBXGroup;
+			children = (
+				017B61B01FE132CE004E13AA /* Fette-Engschrift.ttf */,
+				01520D991FE0DAC4005E1834 /* HOBaseView.swift */,
+				01520D9B1FE0DE02005E1834 /* HOColor.swift */,
+				017B61AE1FE1319E004E13AA /* HOFont.swift */,
+				017B61BC1FE1752D004E13AA /* HOShadow.swift */,
+				017B61BE1FE20859004E13AA /* HOUIUtils.swift */,
+				017B61C01FE20B7D004E13AA /* HOLayer.swift */,
+				010F89251FE2752E006C95F9 /* TestCVCell.swift */,
+				010F89291FE28F79006C95F9 /* TestHeader.swift */,
+			);
+			path = HOUI;
+			sourceTree = "<group>";
+		};
+		01BF20551FE0CA20005BC77D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */,
+				01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */,
+				01F5BA901FE0C18900F1EF22 /* Main.storyboard */,
+				01F5BA961FE0C18900F1EF22 /* Assets.xcassets */,
+				01F5BA981FE0C18900F1EF22 /* LaunchScreen.storyboard */,
+				01F5BA931FE0C18900F1EF22 /* HoldOn.xcdatamodeld */,
+				01F5BABD1FE0C66A00F1EF22 /* HoldOn.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		01BF20561FE0CA31005BC77D /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				01BF205E1FE0CB7E005BC77D /* FitnessMainVC.swift */,
+				019C96861FE101450097EA9C /* FitPageVC.swift */,
+				019C96841FE0F8470097EA9C /* RuningPageVC.swift */,
+				017B61B21FE15992004E13AA /* RidingPageVC.swift */,
+				017B61B41FE15A49004E13AA /* WalkingPageVC.swift */,
+				017B61B61FE16001004E13AA /* WeatherPageVC.swift */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		01BF20571FE0CA89005BC77D /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				01BF20601FE0D669005BC77D /* ChallengeMainVC.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		01BF20581FE0CAA0005BC77D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				010F89271FE285BC006C95F9 /* EventMainVC.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		01BF20591FE0CAAC005BC77D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				010F892B1FE2A4CF006C95F9 /* MeMainVC.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
 		01F5BA801FE0C18900F1EF22 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +193,8 @@
 				01F5BAA31FE0C18900F1EF22 /* HoldOnTests */,
 				01F5BAAE1FE0C18900F1EF22 /* HoldOnUITests */,
 				01F5BA8A1FE0C18900F1EF22 /* Products */,
+				FC5C937734DB49D0EDA7E27E /* Pods */,
+				A3FF57D9B0E7CB69ADD4DDCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +211,13 @@
 		01F5BA8B1FE0C18900F1EF22 /* HoldOn */ = {
 			isa = PBXGroup;
 			children = (
-				01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */,
-				01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */,
-				01F5BA901FE0C18900F1EF22 /* Main.storyboard */,
-				01F5BA961FE0C18900F1EF22 /* Assets.xcassets */,
-				01F5BA981FE0C18900F1EF22 /* LaunchScreen.storyboard */,
+				01BF20561FE0CA31005BC77D /* Fitness */,
+				01BF20571FE0CA89005BC77D /* Challenge */,
+				01BF20581FE0CAA0005BC77D /* Events */,
+				01BF20591FE0CAAC005BC77D /* Me */,
+				01520D961FE0DA51005E1834 /* HOUI */,
+				01BF20551FE0CA20005BC77D /* Support */,
 				01F5BA9B1FE0C18900F1EF22 /* Info.plist */,
-				01F5BA931FE0C18900F1EF22 /* HoldOn.xcdatamodeld */,
 			);
 			path = HoldOn;
 			sourceTree = "<group>";
@@ -128,6 +240,23 @@
 			path = HoldOnUITests;
 			sourceTree = "<group>";
 		};
+		A3FF57D9B0E7CB69ADD4DDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				295D8EB25F92CC5F74645209 /* Pods_HoldOn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5C937734DB49D0EDA7E27E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B11C5942BDA24F66EB0A2BE0 /* Pods-HoldOn.debug.xcconfig */,
+				1181778382D434E56152445E /* Pods-HoldOn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01F5BAB41FE0C18900F1EF22 /* Build configuration list for PBXNativeTarget "HoldOn" */;
 			buildPhases = (
+				1F370DE12B2C9720369394BF /* [CP] Check Pods Manifest.lock */,
 				01F5BA851FE0C18900F1EF22 /* Sources */,
 				01F5BA861FE0C18900F1EF22 /* Frameworks */,
 				01F5BA871FE0C18900F1EF22 /* Resources */,
+				63EB04557B104D9074C07231 /* [CP] Embed Pods Frameworks */,
+				2F4A03951A0BEB8C349F06F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +328,7 @@
 				TargetAttributes = {
 					01F5BA881FE0C18900F1EF22 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					01F5BA9F1FE0C18900F1EF22 = {
@@ -235,8 +368,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F5BABE1FE0C66A00F1EF22 /* HoldOn.storyboard in Resources */,
 				01F5BA9A1FE0C18900F1EF22 /* LaunchScreen.storyboard in Resources */,
 				01F5BA971FE0C18900F1EF22 /* Assets.xcassets in Resources */,
+				017B61B11FE132CE004E13AA /* Fette-Engschrift.ttf in Resources */,
 				01F5BA921FE0C18900F1EF22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +392,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F370DE12B2C9720369394BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F4A03951A0BEB8C349F06F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoldOn/Pods-HoldOn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EB04557B104D9074C07231 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoldOn/Pods-HoldOn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01F5BA851FE0C18900F1EF22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017B61B71FE16001004E13AA /* WeatherPageVC.swift in Sources */,
+				010F892C1FE2A4CF006C95F9 /* MeMainVC.swift in Sources */,
+				01520D9A1FE0DAC4005E1834 /* HOBaseView.swift in Sources */,
+				017B61BD1FE1752D004E13AA /* HOShadow.swift in Sources */,
+				01520D9C1FE0DE02005E1834 /* HOColor.swift in Sources */,
+				010F89281FE285BC006C95F9 /* EventMainVC.swift in Sources */,
+				01BF205F1FE0CB7E005BC77D /* FitnessMainVC.swift in Sources */,
 				01F5BA951FE0C18900F1EF22 /* HoldOn.xcdatamodeld in Sources */,
+				019C96871FE101450097EA9C /* FitPageVC.swift in Sources */,
+				017B61B31FE15992004E13AA /* RidingPageVC.swift in Sources */,
 				01F5BA8F1FE0C18900F1EF22 /* ViewController.swift in Sources */,
+				019C96851FE0F8470097EA9C /* RuningPageVC.swift in Sources */,
 				01F5BA8D1FE0C18900F1EF22 /* AppDelegate.swift in Sources */,
+				010F89261FE2752E006C95F9 /* TestCVCell.swift in Sources */,
+				017B61B51FE15A49004E13AA /* WalkingPageVC.swift in Sources */,
+				017B61C11FE20B7D004E13AA /* HOLayer.swift in Sources */,
+				01BF20611FE0D669005BC77D /* ChallengeMainVC.swift in Sources */,
+				010F892A1FE28F79006C95F9 /* TestHeader.swift in Sources */,
+				017B61BF1FE20859004E13AA /* HOUIUtils.swift in Sources */,
+				017B61AF1FE1319E004E13AA /* HOFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,31 +628,42 @@
 		};
 		01F5BAB51FE0C18900F1EF22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11C5942BDA24F66EB0A2BE0 /* Pods-HoldOn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE6EN55A2J;
 				INFOPLIST_FILE = HoldOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.derrick.zhengbuxuan.HoldOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		01F5BAB61FE0C18900F1EF22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1181778382D434E56152445E /* Pods-HoldOn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE6EN55A2J;
 				INFOPLIST_FILE = HoldOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.derrick.zhengbuxuan.HoldOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
