@@ -25,6 +25,12 @@
 		019C96871FE101450097EA9C /* FitPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019C96861FE101450097EA9C /* FitPageVC.swift */; };
 		01BF205F1FE0CB7E005BC77D /* FitnessMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF205E1FE0CB7E005BC77D /* FitnessMainVC.swift */; };
 		01BF20611FE0D669005BC77D /* ChallengeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF20601FE0D669005BC77D /* ChallengeMainVC.swift */; };
+		01DEE5622006FD9B00A5C2AF /* RunWithGPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEE5612006FD9B00A5C2AF /* RunWithGPSViewController.swift */; };
+		01DEE5642006FF5000A5C2AF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEE5632006FF5000A5C2AF /* LocationManager.swift */; };
+		01DEE566200701F400A5C2AF /* CFFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEE565200701F400A5C2AF /* CFFormatter.swift */; };
+		01DEE5682007033D00A5C2AF /* CFUnitExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEE5672007033D00A5C2AF /* CFUnitExtentions.swift */; };
+		01DEE56A200707D100A5C2AF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEE569200707D100A5C2AF /* CoreDataStack.swift */; };
+		01E5375B1FF48AA000278DA3 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5375A1FF48AA000278DA3 /* TitleViewController.swift */; };
 		01F5BA8D1FE0C18900F1EF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */; };
 		01F5BA8F1FE0C18900F1EF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */; };
 		01F5BA921FE0C18900F1EF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F5BA901FE0C18900F1EF22 /* Main.storyboard */; };
@@ -73,6 +79,12 @@
 		019C96861FE101450097EA9C /* FitPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPageVC.swift; sourceTree = "<group>"; };
 		01BF205E1FE0CB7E005BC77D /* FitnessMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMainVC.swift; sourceTree = "<group>"; };
 		01BF20601FE0D669005BC77D /* ChallengeMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMainVC.swift; sourceTree = "<group>"; };
+		01DEE5612006FD9B00A5C2AF /* RunWithGPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunWithGPSViewController.swift; sourceTree = "<group>"; };
+		01DEE5632006FF5000A5C2AF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		01DEE565200701F400A5C2AF /* CFFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFormatter.swift; sourceTree = "<group>"; };
+		01DEE5672007033D00A5C2AF /* CFUnitExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFUnitExtentions.swift; sourceTree = "<group>"; };
+		01DEE569200707D100A5C2AF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		01E5375A1FF48AA000278DA3 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		01F5BA891FE0C18900F1EF22 /* HoldOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F5BA8C1FE0C18900F1EF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F5BA8E1FE0C18900F1EF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +157,11 @@
 				01F5BA981FE0C18900F1EF22 /* LaunchScreen.storyboard */,
 				01F5BA931FE0C18900F1EF22 /* HoldOn.xcdatamodeld */,
 				01F5BABD1FE0C66A00F1EF22 /* HoldOn.storyboard */,
+				01E5375A1FF48AA000278DA3 /* TitleViewController.swift */,
+				01DEE5632006FF5000A5C2AF /* LocationManager.swift */,
+				01DEE565200701F400A5C2AF /* CFFormatter.swift */,
+				01DEE5672007033D00A5C2AF /* CFUnitExtentions.swift */,
+				01DEE569200707D100A5C2AF /* CoreDataStack.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -211,6 +228,7 @@
 		01F5BA8B1FE0C18900F1EF22 /* HoldOn */ = {
 			isa = PBXGroup;
 			children = (
+				01DEE5612006FD9B00A5C2AF /* RunWithGPSViewController.swift */,
 				01BF20561FE0CA31005BC77D /* Fitness */,
 				01BF20571FE0CA89005BC77D /* Challenge */,
 				01BF20581FE0CAA0005BC77D /* Events */,
@@ -330,6 +348,11 @@
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					01F5BA9F1FE0C18900F1EF22 = {
 						CreatedOnToolsVersion = 9.1;
@@ -446,11 +469,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				017B61B71FE16001004E13AA /* WeatherPageVC.swift in Sources */,
+				01DEE566200701F400A5C2AF /* CFFormatter.swift in Sources */,
 				010F892C1FE2A4CF006C95F9 /* MeMainVC.swift in Sources */,
 				01520D9A1FE0DAC4005E1834 /* HOBaseView.swift in Sources */,
 				017B61BD1FE1752D004E13AA /* HOShadow.swift in Sources */,
 				01520D9C1FE0DE02005E1834 /* HOColor.swift in Sources */,
+				01DEE5622006FD9B00A5C2AF /* RunWithGPSViewController.swift in Sources */,
 				010F89281FE285BC006C95F9 /* EventMainVC.swift in Sources */,
+				01DEE5642006FF5000A5C2AF /* LocationManager.swift in Sources */,
 				01BF205F1FE0CB7E005BC77D /* FitnessMainVC.swift in Sources */,
 				01F5BA951FE0C18900F1EF22 /* HoldOn.xcdatamodeld in Sources */,
 				019C96871FE101450097EA9C /* FitPageVC.swift in Sources */,
@@ -461,10 +487,13 @@
 				010F89261FE2752E006C95F9 /* TestCVCell.swift in Sources */,
 				017B61B51FE15A49004E13AA /* WalkingPageVC.swift in Sources */,
 				017B61C11FE20B7D004E13AA /* HOLayer.swift in Sources */,
+				01DEE56A200707D100A5C2AF /* CoreDataStack.swift in Sources */,
 				01BF20611FE0D669005BC77D /* ChallengeMainVC.swift in Sources */,
+				01E5375B1FF48AA000278DA3 /* TitleViewController.swift in Sources */,
 				010F892A1FE28F79006C95F9 /* TestHeader.swift in Sources */,
 				017B61BF1FE20859004E13AA /* HOUIUtils.swift in Sources */,
 				017B61AF1FE1319E004E13AA /* HOFont.swift in Sources */,
+				01DEE5682007033D00A5C2AF /* CFUnitExtentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
